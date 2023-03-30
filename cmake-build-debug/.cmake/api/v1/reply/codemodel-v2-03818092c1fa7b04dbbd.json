@@ -16,7 +16,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -32,7 +35,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -40,9 +46,30 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "calc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calc-Debug-49c37c398453e4b81528.json",
+					"name" : "calc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "eje1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-eje1-Debug-f917dc961be0e1cc94f5.json",
 					"name" : "eje1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eje2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje2-Debug-448273be07d13bbb775c.json",
+					"name" : "eje2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eje3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje3-Debug-409d6fed1e3e7bfb0193.json",
+					"name" : "eje3",
 					"projectIndex" : 0
 				},
 				{

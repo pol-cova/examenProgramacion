@@ -99,6 +99,99 @@ build eje1: C_EXECUTABLE_LINKER__eje1_Debug CMakeFiles/eje1.dir/eje1.c.o
   TARGET_FILE = eje1
   TARGET_PDB = eje1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target eje2
+
+
+#############################################
+# Order-only phony target for eje2
+
+build cmake_object_order_depends_target_eje2: phony || CMakeFiles/eje2.dir
+
+build CMakeFiles/eje2.dir/eje2.c.o: C_COMPILER__eje2_Debug /Users/paulcontreras/Documents/examenParcial/eje2.c || cmake_object_order_depends_target_eje2
+  DEP_FILE = CMakeFiles/eje2.dir/eje2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/eje2.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje2
+
+
+#############################################
+# Link the executable eje2
+
+build eje2: C_EXECUTABLE_LINKER__eje2_Debug CMakeFiles/eje2.dir/eje2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje2
+  TARGET_PDB = eje2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eje3
+
+
+#############################################
+# Order-only phony target for eje3
+
+build cmake_object_order_depends_target_eje3: phony || CMakeFiles/eje3.dir
+
+build CMakeFiles/eje3.dir/eje3.c.o: C_COMPILER__eje3_Debug /Users/paulcontreras/Documents/examenParcial/eje3.c || cmake_object_order_depends_target_eje3
+  DEP_FILE = CMakeFiles/eje3.dir/eje3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/eje3.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje3
+
+
+#############################################
+# Link the executable eje3
+
+build eje3: C_EXECUTABLE_LINKER__eje3_Debug CMakeFiles/eje3.dir/eje3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje3
+  TARGET_PDB = eje3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target calc
+
+
+#############################################
+# Order-only phony target for calc
+
+build cmake_object_order_depends_target_calc: phony || CMakeFiles/calc.dir
+
+build CMakeFiles/calc.dir/calculadora.c.o: C_COMPILER__calc_Debug /Users/paulcontreras/Documents/examenParcial/calculadora.c || cmake_object_order_depends_target_calc
+  DEP_FILE = CMakeFiles/calc.dir/calculadora.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/calc.dir
+  OBJECT_FILE_DIR = CMakeFiles/calc.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calc
+
+
+#############################################
+# Link the executable calc
+
+build calc: C_EXECUTABLE_LINKER__calc_Debug CMakeFiles/calc.dir/calculadora.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/calc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = calc
+  TARGET_PDB = calc.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -133,7 +226,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/examenParcial/cmake-build-debug
 
-build all: phony examenParcial eje1
+build all: phony examenParcial eje1 eje2 eje3 calc
 
 # =============================================================================
 # Built-in targets

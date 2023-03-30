@@ -1,4 +1,7 @@
 /Users/paulcontreras/Documents/examenParcial/cmake-build-debug/CMakeFiles/examenParcial.dir
 /Users/paulcontreras/Documents/examenParcial/cmake-build-debug/CMakeFiles/eje1.dir
+/Users/paulcontreras/Documents/examenParcial/cmake-build-debug/CMakeFiles/eje2.dir
+/Users/paulcontreras/Documents/examenParcial/cmake-build-debug/CMakeFiles/eje3.dir
+/Users/paulcontreras/Documents/examenParcial/cmake-build-debug/CMakeFiles/calc.dir
 /Users/paulcontreras/Documents/examenParcial/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/paulcontreras/Documents/examenParcial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
